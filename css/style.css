@@ -1,0 +1,173 @@
+body{
+    background-color: #509df5;
+}
+
+#mainPart.setAttr{
+    margin-top: 15%;
+}
+
+.list-group{
+     margin-top: -50px;
+ }
+ 
+.levelStyle{
+    margin: 30px;
+    font-family: 'Lobster', cursive;
+    text-shadow: 5px 0 #232931;
+    font-size: 10rem;
+    color: rgb(25, 96, 248);
+    text-align: center;
+}
+
+.againIcon{
+    margin-top: 5px;
+    width: -webkit-fill-available;
+}
+.challengeSpan{
+    margin-bottom: 20px;
+}
+.spanValues{
+    margin-bottom: 20px;
+    margin-left: auto;
+}
+
+#timePlace{
+    color: azure;
+    font-family: cursive;
+}
+
+.resultList{
+    color: azure;
+}
+
+.alert{
+    display: flex;
+    font-family: cursive;
+}
+
+.result{
+    margin-right: 25px;
+}
+
+.valuesCard{
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    width: 25px;
+    height: 30px;
+    word-wrap: break-word;
+    background-color: rgb(255, 255, 255);
+    background-clip: border-box;
+    /* border: 1px solid rgba(0,0,0,.125); */
+    /*border-radius: .25rem;*/
+}
+
+.valuesCard.true{
+    background-color: rgb(75, 216, 75);
+}
+
+.valuesCard.false{
+    background-color: rgb(235, 96, 54);
+}
+.valuesCard.current{
+    border: 0.5px solid rgba(5,5,5,.225);
+}
+
+#CS{
+    display: none;
+}
+
+#CS.active{
+    display: block;
+}
+
+#gameInfo {
+    font-family: 'Press Start 2P', cursive;
+    font-size: 2rem;
+    margin:  5%;
+    color: #FEF2BF;
+    text-align: center;
+  }
+
+#gameInfo.disabled{
+   display: none;
+}
+
+#gameHeader{
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+#CI{
+    display: none;
+}
+
+#CI.active{
+    display: block;
+}
+
+.buttonsField{
+    display: flex;
+}
+
+#levelButtons{
+    display: none;
+}
+
+#levelButtons.active{
+    display: block;
+}
+
+#againButton{
+    display: none;
+}
+
+#againButton.active{
+    display: block;
+}
+
+#startButton{
+    display: block;
+    margin-left: 82%;
+    font-family: cursive;
+    color: #FEF2BF;;
+}
+
+#startButton.disabled{
+    display: none;
+}
+
+#nextButton{
+    display: block;
+}
+
+#nextButton.disabled{
+    display: none;
+}
+
+.challengeSpanText{
+   width: -webkit-fill-available;
+   display: -ms-flexbox;
+    display: flex;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: .375rem .75rem;
+    margin-bottom: 0;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    text-align: center;
+    white-space: nowrap;
+    background-color: #e9ecef;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+}
+
+.challengeInputText{
+    font-size: 20px;
+}
+
