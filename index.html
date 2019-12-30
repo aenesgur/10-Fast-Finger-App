@@ -8,36 +8,49 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/9e17723713.js"></script>
-    <title>Fast Writing</title>
+    <link rel="icon" href="logos/eLogo.png" type="image/png" sizes="16x16">
+    <title>10 Fast Fingers</title>
 </head>
 <body>
     <div class="container">
         <div id="gameInfo">
             <h1 id="gameHeader">10 Fast Fingers! <i class="far fa-keyboard"></i></h1>
             <p id="gameText">The 10 finger method is a very established technique to efficiently use your computer keyboard. With some practice and the correct finger positions you can type „blindly“ on the keyboard. If you have it down, you can significantly lower your error rate and increase your typing speed at the same time</p>
+            <div id="startButton" class="startBtn">
+                <button>Start</button>
+            </div>
         </div>
         <div class="levelField">
             <h1 id="levelInfo" class="levelStyle"></h1>
         </div>
-        <div id="mainPart" class="row ">
+        <div class="row ">
             <div class="col-md-2">
-                <div id="levelButtons" class="list-group "> </div>
+                <div id="dropdownControl" class="dropdown">
+                    <button class="dropbtn">Initial Levels <i class="fas fa-level-down-alt"></i></button>
+                    <div id="dropdownList" class="dropdown-content"></div>
+                </div>
             </div>
-            <div class="col-md-8">
-                <div id="resultPlace"></div>
-                <div id="spanValues" class="row spanValues"></div>
-                <div id="CI" class="input-group challengeInput">
-                    <input id="inputText" type="text" class="form-control challengeInputText" placeholder="Lets typing!" aria-label="Recipient's username" aria-describedby="basic-addon2">
+            <div id="mainPart" class="col-md-8">
+                <div id="resultField"></div>
+                <div id="challengeDataField" class="row challengeDataStyle"></div>
+                <div id="challengeInputField" class="input-group">
+                    <input id="inputText" type="text" class="form-control challengeInputText" placeholder="Lets typing!" aria-label="Recipient's input values" aria-describedby="basic-addon2">
                 </div>
                 <div class="buttonsField">
                     <button id="againButton" type="button" class="btn btn-info ">Again<i class="fas fa-redo-alt againIcon"></i></button>
-                    <button id="startButton" type="button" class="btn btn-warning ">Start <i class="fas fa-mouse-pointer"></i></button>
+                    <button id="nextButton" type="button" class="btn btn-warning ">Next<i class="fas fa-chevron-right"></i></button>
                 </div>
             </div>
-            <div class="col-md-2 ">
-                <div id="timePlace"></div>
+            <div id="mainPart" class="col-md-2 ">
+                <div id="timeField"></div>
             </div>
         </div>
+    </div>
+    <div id="social-platforms">        
+        <a class="btnSocial btn-icon btn-facebook" href="https://tr.linkedin.com/in/ahmet-enes-g%C3%BCr-39827b15b" target="_blank"><i class="fab fa-facebook-f"></i><span>Facebook</span></a>
+        <a class="btnSocial btn-icon btn-github" href="https://github.com/aenesgur" target="_blank"><i class="fab fa-github"></i><span>GitHub</span></a>
+        <a class="btnSocial btn-icon btn-instagram" href="https://www.instagram.com/aenesgur/?hl=en" target="_blank"><i class="fab fa-instagram"></i><span>Instagram</span></a>
+        <a class="btnSocial btn-icon btn-linkedin" href="https://tr.linkedin.com/in/ahmet-enes-g%C3%BCr-39827b15b" target="_blank"><i class="fab fa-linkedin-in"></i><span>LinkedIn</span></a>
     </div>
     <script type="text/javascript" src="dist/bundle.js"></script>
 </body>
